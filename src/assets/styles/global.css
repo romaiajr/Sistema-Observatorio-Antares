@@ -1,0 +1,66 @@
+:root {
+    --color-background: #F0F1F6;
+    
+    --color-primary-lighter: #6EAADF;
+    --color-primary-light: #4A90CF;
+    --color-primary-: #2B79BF;
+    --color-primary-dark: #0B5FAB;
+
+    --color-secundary: #3F586A;
+    --color-secundary-dark: #182F3F;
+
+    --color-alert-light: #FFCB62;
+    --color-alert: #FEBF3E;
+    --color-alert-dark: #F2A60B;
+
+    --color-danger-light:#F25B69;
+    --color-danger: #DC3545;
+    --color-danger-dark: #BB1626;
+
+    --color-success-light:#77CC7D;
+    --color-success:#4CB053;
+    --color-success-dark: #2D9634;
+    
+    --color-title-in-primary: #FFFFFF; /*cor do titulo quando o background for a cor primaria*/
+    --color-text-in-primary: #F4F4F4; /*cor do texto quando o background for a cor primaria*/
+    --color-button-text: #FFFFFF;
+    --color-input-border: #E6E6F0;
+    --color-input-background: #F8F8FC; /*cor dos background dos inputs dos forms*/
+    --color-card: #FFFFFF;  /*cor do card para componentes dos usuários*/
+    --color-card-footer: #FAFAFC; /*cor do footer do card caso tenha alguma informação relevante pra destacar*/
+   
+    font-size: 60%;
+  }
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html, body, #root {
+      height: 100vh
+  }
+
+  body{
+      background: var(--color-background);
+  }
+
+  #root{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  body,
+  input,
+  button,
+  textarea{
+      font: 500 1.6rem Poppins;
+      
+  }
+
+  .container{
+      width: 90vw;
+      max-width: 700px;
+  }
