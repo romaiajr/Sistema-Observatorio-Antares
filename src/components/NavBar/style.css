@@ -12,6 +12,7 @@
     padding-left: 10%;
     padding-right: 10%;
     border-bottom: 2px solid var(--color-input-border);
+    position: relative;
 }
 
 .logo{

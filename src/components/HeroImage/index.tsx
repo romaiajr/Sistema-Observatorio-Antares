@@ -6,14 +6,13 @@ import './styles.css';
 function HeroImage() {
     return (
         <div className="heroimage">
-            <div className="image_section">
-                <div>
-                    <img src={LogoNome} className="logo_nome" />
-                    <p>Ficamos felizes  em receber a sua visita.</p>
-                </div>
-                {/* <div>
-                    <img src={MainImage} className="mainimage" />
-                </div> */}
+            <div>
+                <img src={MainImage} className="mainimage" />
+            </div>
+            <div className="brand_section">
+                <img src={LogoNome} className="logo_nome" />
+                <p>Ficamos felizes  em
+                <br />receber a sua visita ;)</p>
             </div>
             <div className="button_section">
 
