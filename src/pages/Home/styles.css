@@ -1,0 +1,11 @@
+.nav_link{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.8rem;
+    color: black;
+}
+
+.nav_link:hover{
+    border-bottom: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}

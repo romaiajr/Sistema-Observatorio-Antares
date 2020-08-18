@@ -3,7 +3,7 @@
     
     --color-primary-lighter: #6EAADF;
     --color-primary-light: #4A90CF;
-    --color-primary-: #2B79BF;
+    --color-primary: #2B79BF;
     --color-primary-dark: #0B5FAB;
 
     --color-secundary: #3F586A;
@@ -28,7 +28,8 @@
     --color-input-background: #F8F8FC; /*cor dos background dos inputs dos forms*/
     --color-card: #FFFFFF;  /*cor do card para componentes dos usuários*/
     --color-card-footer: #FAFAFC; /*cor do footer do card caso tenha alguma informação relevante pra destacar*/
-   
+    --color-link: #6A6180;
+    
     font-size: 60%;
   }
 
@@ -45,12 +46,12 @@
   body{
       background: var(--color-background);
   }
-
+/* 
   #root{
       display: flex;
       align-items: center;
       justify-content: center;
-  }
+  } */
 
   body,
   input,

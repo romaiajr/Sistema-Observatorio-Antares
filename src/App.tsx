@@ -1,12 +1,15 @@
 import React from 'react';
 import './assets/styles/global.css'
+import Routes from './routes';
 
 function App() {
   return (
     <div className="App">
-      <h1>OBSERVATÓRIO ANTARES</h1>
+      <Routes />
     </div>
   );
 }
 
 export default App;
+
+

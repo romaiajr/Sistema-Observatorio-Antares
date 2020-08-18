@@ -1,0 +1,17 @@
+.heroimage{
+    padding: 0 10%;
+    background: var(--color-primary);
+    height: 500px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroimage p{
+    font-size: 2.8rem;
+}
+
+.logo_nome{
+    height: 125px;
+}
