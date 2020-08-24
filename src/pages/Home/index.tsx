@@ -3,6 +3,7 @@ import Navbar from '../../components/NavBar'
 import { Link } from 'react-router-dom';
 import LogoNome from '../../assets/images/logo_nome2.svg';
 import MainImage from '../../assets/images/hero_image.svg';
+import Barraca from '../../assets/images/barraca.svg';
 import './styles.css';
 
 function Home() {
@@ -24,15 +25,18 @@ function Home() {
             </div>
             <div className="scheduling_section">
                 <div className="container_grid">
-
                     <p>Seja bem-vindo!<br /><b>Agende já a sua visita</b></p>
-
                     <span>Realizar agendamento como:</span>
                     <div className="button_container">
                         <Link to="/" id="pessoa_btn" className="link_button">Pessoa</Link>
                         <Link to="/" id="escola_btn">Escola</Link>
                     </div>
                 </div>
+            </div>
+            {/* AJEITAR A DESGRAÇA DESSE OVERFLOW NO X */}
+            <div className="atractions_section">
+                <img src={Barraca} alt="Barraca" />
+                <div className="carousel"> <h1>Carousel</h1></div>
             </div>
         </div >
     );

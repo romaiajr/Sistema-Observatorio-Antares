@@ -42,6 +42,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 160px;
     grid-template-areas: "texto agendar buttons";
+    border-bottom: solid 3px var(--color-border);
 }
 
 
@@ -75,9 +76,44 @@
 
 #pessoa_btn{
     margin-right: 10px;
-    background: var(--color-primary)
+    background: var(--color-primary);
+    transition: background 0.2s;
+}
+
+#pessoa_btn:hover{
+    background: var(--color-primary-dark);
 }
 
 #escola_btn{
-    background: var(--color-secundary)
+    background: var(--color-secundary);
+    transition: background 0.2s;
 }
+
+#escola_btn:hover{
+    background: var(--color-secundary-dark);
+}
+
+.atractions_section{
+    display: grid;
+    padding: 0 10% 0 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px;
+    grid-template-areas: 'imagem carousel';
+    border-bottom: 3px solid var(--color-border);
+}
+
+.atractions_section img{
+    grid-area: imagem;
+    justify-self: start;
+    align-self: center;
+    height: 400px;
+}
+
+.carousel{
+    grid-area: carousel;
+    align-self: center;
+    justify-self: center;
+}
+
+
+

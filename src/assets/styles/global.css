@@ -29,6 +29,7 @@
     --color-card: #FFFFFF;  /*cor do card para componentes dos usuários*/
     --color-card-footer: #FAFAFC; /*cor do footer do card caso tenha alguma informação relevante pra destacar*/
     --color-link: #6A6180;
+    --color-border: #A3A9C8;
     
     font-size: 60%;
   }
