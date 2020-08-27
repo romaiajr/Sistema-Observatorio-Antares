@@ -23,10 +23,73 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 } 
 
 .logo{
-    max-width: 200px;
-    max-height: 100px;  
+    max-width: 300px;
+    max-height: 200px;  
 }
+
+#form_titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#form_container_usuario{
+    width: 350px; 
+    margin-left: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+} 
+
+#form_container_senha{
+    width: 350px; 
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+#form_campo_usuario{
+    width: 210px; 
+    height: 30px;
+} 
+
+#form_campo_senha{
+    width: 210px; 
+    height: 30px;
+} 
+
+.container_buttons{
+    width: 350px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.container_button{
+    width: 300px;
+    height: 30px; 
+    margin-left: 25px;
+}
+
+#button_entrar{
+    width: 300px;
+    height: 30px;
+} 
+
+#button_senha{
+    width: 300px;
+    height: 30px;
+} 
+
+#esquecer_senha{
+    font-size: 12px;
+    color:black;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+
