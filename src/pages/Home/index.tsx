@@ -5,6 +5,7 @@ import LogoNome from '../../assets/images/logo_nome2.svg';
 import MainImage from '../../assets/images/hero_image.svg';
 import Barraca from '../../assets/images/barraca.svg';
 import './styles.css';
+import Carrossel from '../../components/Carousel';
 
 function Home() {
     return (
@@ -14,7 +15,7 @@ function Home() {
                 <Link to="" className="nav_link">Informações</Link>
                 <Link to="" className="nav_link">Contato</Link>
                 <Link to="" className="nav_link">Agendamento</Link>
-                <Link to="" className="nav_link">Login</Link>
+                <Link to="/login" className="nav_link">Login</Link>
             </Navbar>
             <div className="brand_section">
                 <img src={MainImage} alt="Imagem Principal" className="main_img" />
@@ -33,10 +34,14 @@ function Home() {
                     </div>
                 </div>
             </div>
-            {/* AJEITAR A DESGRAÇA DESSE OVERFLOW NO X */}
+
             <div className="atractions_section">
                 <img src={Barraca} alt="Barraca" />
-                <div className="carousel"> <h1>Carousel</h1></div>
+                <div className="carousel_container">
+                    <div className="carrossel">
+                        <Carrossel />
+                    </div>
+                </div>
             </div>
         </div >
     );

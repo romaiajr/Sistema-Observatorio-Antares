@@ -12,7 +12,6 @@
 
 .brand_section{
     height: 500px;
-    width: 100vw;
     background: var(--color-primary);
     display: flex;
     align-items: center;
@@ -109,10 +108,17 @@
     height: 400px;
 }
 
-.carousel{
+.carousel_container{
+    position: block;
     grid-area: carousel;
     align-self: center;
     justify-self: center;
+    height: 450px;
+    width: 100%;
+}
+
+.carrossel{
+    height: 80%;
 }
 
 
