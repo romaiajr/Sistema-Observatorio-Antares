@@ -21,8 +21,8 @@
     
 }
 
-.navbar h2{
-    color: var(--color-link); 
+.navbar a{
+    text-decoration: none;
 }
 
 .logo_title{
